@@ -3,8 +3,13 @@ import {
   createStackNavigator,
   createAppContainer,
 } from 'react-navigation';
+
 import  HomeScreen  from './src/HomeScreen/HomeScreen';
-import  SecondScreen  from './src/SecondScreen/SecondScreen';
+import  Login  from './src/Login/Login';
+import  Profile  from './src/Profile/Profile';
+import  ExchangeHub  from './src/ExchangeHub/ExchangeHub';
+import  Exchange  from './src/Exchange/Exchange';
+import  BecomeSeller  from './src/BecomeSeller/BecomeSeller';
 
 import { useScreens } from 'react-native-screens';
 useScreens();
@@ -12,9 +17,11 @@ useScreens();
 const AppNavigator = createStackNavigator(
   {
     Home: HomeScreen,
-    Second: {
-      screen: SecondScreen,
-    },
+    Login: Login,
+    Profile: Profile,
+    ExchangeHub: ExchangeHub,
+    Exchange: Exchange,
+    BecomeSeller: BecomeSeller
   },
   {
     headerBackTitleVisible: false,

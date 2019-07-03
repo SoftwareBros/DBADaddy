@@ -5,9 +5,9 @@ import { SafeAreaView } from 'react-navigation';
 
 type Props = {navigation: {navigate: Function}};
 type State = {};
-export default class SecondScreen extends Component<Props, State> {
+export default class BecomeSeller extends Component<Props, State> {
   static navigationOptions = {
-    title: 'Second Screen',
+    title: 'Become a Seller',
     headerBackground: (
         <LinearGradient
             colors={['#58AADA', '#FF9C33']}
@@ -18,16 +18,16 @@ export default class SecondScreen extends Component<Props, State> {
     ),
   };
 
-  moveToHome = () => {
-    this.props.navigation.navigate('Home');
+  moveToExchange = () => {
+    this.props.navigation.navigate('Exchange');
   }
   render = () => {
     return (
       <SafeAreaView style={styles.container}>
-        <Text style={styles.text}> Second Screen </Text>
+        <Text style={styles.text}> Become a Seller! </Text>
         <Button
-          title='Go to Home Screen'
-          onPress={this.moveToHome}
+          title='Go back to exchange'
+          onPress={this.moveToExchange}
         />
       </SafeAreaView>
     );
