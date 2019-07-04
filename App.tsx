@@ -1,41 +1,60 @@
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ * 
+ * Generated with the TypeScript template
+ * https://github.com/emin93/react-native-template-typescript
+ */
+
 import React, { Component } from 'react';
 import {
-  createStackNavigator,
-  createAppContainer,
-} from 'react-navigation';
-import  HomeScreen  from './src/HomeScreen/HomeScreen';
-import  SecondScreen  from './src/SecondScreen/SecondScreen';
+  Platform,
+  StyleSheet,
+  Text,
+  View
+} from 'react-native';
 
-import { useScreens } from 'react-native-screens';
-useScreens();
+const instructions = Platform.select({
+  ios: 'Press Cmd+R to reload,\n' +
+    'Cmd+D or shake for dev menu',
+  android: 'Double tap R on your keyboard to reload,\n' +
+    'Shake or press menu button for dev menu',
+});
 
-const AppNavigator = createStackNavigator(
-  {
-    Home: HomeScreen,
-    Second: {
-      screen: SecondScreen,
-    },
-  },
-  {
-    headerBackTitleVisible: false,
-    initialRouteName: 'Home',
-    defaultNavigationOptions: {
-      title: 'React Native Starter Kit',
-      headerTitleStyle: {
-        color: '#fff',
-        fontSize: 16,
-      },
-      headerStyle: {
-        backgroundColor: '#FF9C33',
-      },
-    },
-  },
-);
-
-const AppContainer = createAppContainer(AppNavigator);
-
-export default class App extends Component {
+interface Props {}
+export default class App extends Component<Props> {
   render() {
-    return <AppContainer />;
+    return (
+      <View style={styles.container}>
+        <Text style={styles.welcome}>
+          Welcome to React Native!
+        </Text>
+        <Text style={styles.instructions}>
+          To get started, edit App.tsx
+        </Text>
+        <Text style={styles.instructions}>
+          {instructions}
+        </Text>
+      </View>
+    );
   }
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
+  },
+  welcome: {
+    fontSize: 20,
+    textAlign: 'center',
+    margin: 10,
+  },
+  instructions: {
+    textAlign: 'center',
+    color: '#333333',
+    marginBottom: 5,
+  },
+});

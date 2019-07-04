@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTTrackingAnimatedNode.m \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTTrackingAnimatedNode.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTAnimatedNode.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTValueAnimatedNode.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/node_modules/react-native/Libraries/NativeAnimation/RCTNativeAnimatedNodesManager.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManager.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/kunalrathi/SoftwareBros/DBADaddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h
