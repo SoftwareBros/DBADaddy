@@ -10,8 +10,11 @@ export default class HomeScreen extends Component<Props, State> {
       status: "Unsent"
     }
   }
-  moveToSecond = () => {
-    this.props.navigation.navigate('Second');
+  moveToLogin = () => {
+    this.props.navigation.navigate('Login');
+  }
+  moveToExchangeHub = () => {
+    this.props.navigation.navigate('ExchangeHub');
   }
   pingServer = () => {
     const that = this;
@@ -20,12 +23,25 @@ export default class HomeScreen extends Component<Props, State> {
     })
     .then(function(res: any){
       console.log(res);
-      that.setState({status: res.status}) ;
+      that.setState({status: res.status});
+      if(that.state.status === "Success"){
+        that.moveToExchangeHub();
+      }
     }).catch((e)=>{
       console.log(e);
     });
   }
+  componentDidMount = () =>{
+    const loggedIn = true;
+    if(loggedIn){
+      this.moveToExchangeHub();
+    }
+    else{
+      this.moveToLogin();
+    }
+  }
   render = () => {
+    
     return (
       <View style={styles.container}>
         <Text style={{ fontSize: 45, fontWeight: 'bold' }}> {`Status: ${this.state.status}`} </Text>
@@ -34,8 +50,8 @@ export default class HomeScreen extends Component<Props, State> {
           onPress={this.pingServer}
         />
         <Button
-          title='Go to Second Screen'
-          onPress={this.moveToSecond}
+          title='Login'
+          onPress={this.moveToLogin}
         />
       </View>
     );
