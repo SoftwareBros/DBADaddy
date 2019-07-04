@@ -1,9 +1,22 @@
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ * 
+ * Generated with the TypeScript template
+ * https://github.com/emin93/react-native-template-typescript
+ */
+
 import React, { Component } from 'react';
 import {
   createStackNavigator,
   createAppContainer,
 } from 'react-navigation';
-
+import {
+  Platform,
+  StyleSheet,
+  Text,
+  View
+} from 'react-native';
 import  HomeScreen  from './src/HomeScreen/HomeScreen';
 import  Login  from './src/Login/Login';
 import  Profile  from './src/Profile/Profile';
@@ -38,11 +51,3 @@ const AppNavigator = createStackNavigator(
     },
   },
 );
-
-const AppContainer = createAppContainer(AppNavigator);
-
-export default class App extends Component {
-  render() {
-    return <AppContainer />;
-  }
-}
